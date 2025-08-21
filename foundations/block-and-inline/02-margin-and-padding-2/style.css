@@ -7,21 +7,34 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  margin: 0 auto; /* auto, in this case would also work to center horizontally, 
+  but ,0 auto, in case we use flex in the future. 
+  In flex, the auto property, also centers vertically */
 }
