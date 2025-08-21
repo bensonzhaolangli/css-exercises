@@ -1,0 +1,18 @@
+.odd-numbered {
+  background-color: #fda7a7;
+  font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.larger-text {
+  font-size: 24px;
+}
+
+#second-element {
+  font-size: 36px;
+  color: hsla(244, 100%, 50%, 0.87);
+}
+
+#fourth-element {
+  background-color: #a8f591;
+  font-weight: bold;
+}
